@@ -81,22 +81,5 @@ public class lectura {
         return lineCount > 0 ? (double) totalLength / lineCount : 0;
     }
 
-    public static void main(String[] args) {
-        // Pruebas de las funciones
-        System.out.println("TEST DE LA FUNCIÓN 6:");
-        System.out.println("El número de veces que aparece la palabra quijote en el fichero resources/lin_quijote.txt es: " 
-                           + contarPalabra("resources/lin_quijote.txt", "\\s+", "quijote"));
-
-        System.out.println("\nTEST DE LA FUNCIÓN 7:");
-        System.out.println("Las líneas en las que aparece la palabra quijote son: " 
-                           + buscarLineas("resources/lin_quijote.txt", "quijote"));
-
-        System.out.println("\nTEST DE LA FUNCIÓN 8:");
-        System.out.println("Las palabras únicas en el fichero resources/archivo_palabras.txt son: " 
-                           + palabrasUnicas("resources/archivo_palabras.txt"));
-
-        System.out.println("\nTEST DE LA FUNCIÓN 9:");
-        System.out.println("La longitud promedio de las líneas del fichero resources/palabras_random.csv es: " 
-                           + longitudMediaLineas("resources/palabras_random.csv", ","));
-    }
+    
 }
